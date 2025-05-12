@@ -1,0 +1,42 @@
+h1{
+   text-align: center;
+   font-family: cursive;
+}
+body {
+    background-color: #f3e8ff;
+    color: #333;
+}
+.texto {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.imagen1 {
+    display: flex;
+    align-items: center;
+}
+.imagen1 img {
+    max-width: 300px; 
+    margin-right: 20px;
+}
+.imagen1 .texto2 {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagen2 {
+    display: flex;
+    flex-direction: row-reverse; /* Invierte el orden: imagen a la derecha */
+    align-items: center; /* Centra verticalmente */
+}
+.imagen2 img {
+    max-width: 300px;
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen2 .texto3 {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto4 {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

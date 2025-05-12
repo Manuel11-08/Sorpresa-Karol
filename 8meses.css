@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f3e8ff;
+    color: #333;
+}
+.texto{
+    text-align: center;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 350px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+    
